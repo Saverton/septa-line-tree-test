@@ -133,6 +133,10 @@ function App() {
           connect.push(false);
         }
 
+        while (connect.length > previous?.services.filter(serviceList => serviceList.length > 0).length) {
+          connect.pop();
+        }
+
         while (stopServices.length < connect.length) {
           stopServices.push([]);
         }
