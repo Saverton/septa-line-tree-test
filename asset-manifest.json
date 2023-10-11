@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/septa-line-tree-test/static/css/main.d4026d08.css",
+    "main.js": "/septa-line-tree-test/static/js/main.c2b71ba6.js",
+    "static/js/787.8b7dad01.chunk.js": "/septa-line-tree-test/static/js/787.8b7dad01.chunk.js",
+    "index.html": "/septa-line-tree-test/index.html",
+    "main.d4026d08.css.map": "/septa-line-tree-test/static/css/main.d4026d08.css.map",
+    "main.c2b71ba6.js.map": "/septa-line-tree-test/static/js/main.c2b71ba6.js.map",
+    "787.8b7dad01.chunk.js.map": "/septa-line-tree-test/static/js/787.8b7dad01.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4026d08.css",
+    "static/js/main.c2b71ba6.js"
+  ]
+}
