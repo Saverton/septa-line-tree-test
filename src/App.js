@@ -156,6 +156,14 @@ function App() {
     })();
   }, [services, direction]);
 
+  // useEffect(() => {
+  //   if (stopList.length > 0) {
+  //     console.log(
+  //       stopList.map(s => `${s.name} | ${s.services.findLast(svs => svs.length > 0).join(' ')}`).join('\n')
+  //     );
+  //   }
+  // }, [stopList])
+
   const handleSetService = (service) => {
     setStopList([]);
     setServices(service.services);
