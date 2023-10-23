@@ -33,7 +33,7 @@ function App() {
 
         stops[service] = rawStops
           .filter(
-            (s) => s.release_name === "20230903" && s.direction_id === direction
+            (s) => s.release_name === "20231012" && s.direction_id === direction
           )
           .sort((a, b) => a.stop_sequence - b.stop_sequence);
       }
